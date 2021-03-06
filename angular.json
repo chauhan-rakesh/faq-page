@@ -116,6 +116,10 @@
               "devServerTarget": "faq-page:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
